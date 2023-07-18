@@ -1,8 +1,12 @@
 package assignment;
 
+import java.util.Scanner;
+
 public class ReverseString {
 	public static void main(String[] args) {    
-        String string = "Infoway Technologies";    
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String");
+        String string = sc.next();    
          
         String reverseString = "";    
             
